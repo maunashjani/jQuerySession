@@ -1,0 +1,57 @@
+<html>
+        
+        <head>
+            <title>Document</title>
+            <!-- jQuery File -->
+            <script src="js/jquery-3.2.1.min.js"></script>
+        
+            <script>
+                $(document).ready(function () {
+                   
+                    $("#btnDemo").click(function(){
+
+                        //alert("hello ppl");
+
+                      // $("p").hide();
+
+                      $("p").toggle();
+
+                    // $("#Best").toggle();
+
+                    });
+
+                    $("#btnDemo2").click(function(){
+
+                       $("p").show();
+
+                    });
+
+
+                    $("p").click(function(){
+
+                        alert("hello all");
+                    });
+        
+                });
+            </script>
+        </head>
+        
+        <body>
+        
+        
+        <input type="button" id="btnDemo" value="Demo Button">
+        
+        <input type="button" id="btnDemo2" value="Demo Button 2">
+        <p>Some Data 1</p>
+
+        <br>
+
+        <p>Some Data 2</p>
+
+        <br>
+
+        <!-- <p id="Best">Some Data 3</p> -->
+
+        </body>
+        
+        </html>

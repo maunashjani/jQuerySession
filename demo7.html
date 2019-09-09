@@ -1,0 +1,42 @@
+<html>
+        
+        <head>
+            <title>Document</title>
+            <!-- jQuery File -->
+            <script src="js/jquery-3.2.1.min.js"></script>
+        
+            <script>
+                $(document).ready(function () {
+        
+        
+                    $("#btnB1").click(function () {
+        
+                        $("#ves").css("color","green");
+
+                        $("#ves").animate(
+                            { 
+                                left:'10px', 
+                                top:'10px',
+                                fontSize:'20px',
+                                letterSpacing: "+=10px"
+                            }, 3000);
+                        
+                    });
+        
+        
+                });
+            </script>
+        </head>
+        
+        <body>
+        
+            <input type="button" id="btnB1" value="Animation">
+        
+          
+            <p id="ves">VES COLLEGE</p>
+          
+        
+        
+        </body>
+        
+        </html>
